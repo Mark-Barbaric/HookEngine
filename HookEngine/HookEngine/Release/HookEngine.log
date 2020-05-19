@@ -1,0 +1,11 @@
+﻿  Hook.cpp
+C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\HookEngine\Hook.cpp(107,17): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\HookEngine\Hook.cpp(107,17): message : consider using '%hs' in the format string
+C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\HookEngine\Hook.cpp(107,17): message : consider using '%Ts' in the format string
+C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\HookEngine\Hook.cpp(107,17): message : this warning is based on non-standard semantics used by Visual C++
+Hook.obj : error LNK2001: unresolved external symbol "void __cdecl GetInstructionString(char *,struct _DecodedInst *)" (?GetInstructionString@@YAXPADPAU_DecodedInst@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl GetInstructionString(wchar_t *,struct _DecodedInst *)" (?GetInstructionString@@YAXPA_WPAU_DecodedInst@@@Z)
+Hook.obj : error LNK2001: unresolved external symbol _distorm_decode64
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\HookEngine.exe : fatal error LNK1120: 3 unresolved externals

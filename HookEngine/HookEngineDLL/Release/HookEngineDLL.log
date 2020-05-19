@@ -1,0 +1,17 @@
+﻿  HookEngineDLL.cpp
+     Creating library C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\HookEngineDLL.lib and object C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\HookEngineDLL.exp
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+distorm_x86.lib(decoder.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(decoder.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(distorm.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(distorm.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(instructions.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(instructions.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(insts.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(insts.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(operands.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(operands.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(prefix.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(prefix.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(textdefs.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(textdefs.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(wstring.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(wstring.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+distorm_x86.lib(x86defs.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'distorm_x86.lib(x86defs.obj)' or at 'C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\vc80.pdb'; linking object as if no debug info
+  HookEngineDLL.vcxproj -> C:\Users\mark.barbaric\Documents\WindowsInternals\WindowsHooking\HookEngine\HookEngine\Release\HookEngineDLL.dll
